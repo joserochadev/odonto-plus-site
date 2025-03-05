@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.header-menu{
+    @apply flex gap-10 p-8;
+
+}
+
