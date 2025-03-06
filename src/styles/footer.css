@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.footer{
+    @apply flex items-center justify-between bg-(--gray-footer) p-10;
+}
+
+.footer-content{
+    h1, h3{
+        @apply text-white;
+    }
+  
+}
+
+.social-links{
+    h3{
+        @apply text-white;
+    }
+}

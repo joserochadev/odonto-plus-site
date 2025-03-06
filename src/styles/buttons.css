@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+button {
+  @apply flex gap-2 items-center justify-center p-3 rounded-4xl 
+  border-2 text-[length:var(--font-size-sm)] text-white 
+  transition-colors duration-300 ease-in-out;
+}
+
+.primary-button {
+  @apply bg-[var(--brand-green)];
+}
+
+.primary-button:hover {
+  @apply bg-[var(--brand-green-hover)];
+}
+
+.secondary-button {
+  @apply text-[var(--brand-green)] border-[var(--brand-green)];
+}
+
+.secondary-button:hover {
+  @apply border-[var(--brand-green-hover)] text-(--brand-green-hover);
+}

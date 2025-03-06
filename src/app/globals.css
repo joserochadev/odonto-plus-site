@@ -1,32 +1,32 @@
 @import "tailwindcss";
 
-
 :root {
-  --brand-green: #00856F;
-  --brand-green-light: #DCE9E2;
-  --brand-green-light-02: #F7F9F9;
-  --brand-beige: #FFFAF1;
-  --brand-green-hover: #00453A;
-  
+  --brand-green: #00856f;
+  --brand-green-light: #dce9e2;
+  --brand-green-light-02: #f7f9f9;
+  --brand-beige: #fffaf1;
+  --brand-green-hover: #00453a;
+
   --gray-headline: #061800;
   --gray-paragraph: #384633;
-  --white: #3E3E3E;
-  
-  --font-sans: 'Onest', sans-serif;
-  --font-serif: 'DM Sans', sans-serif;
-  
+  --white: #3e3e3e;
+  --gray-footer: #2a2a2a;
+
+  --font-sans: "Onest", sans-serif;
+  --font-serif: "DM Sans", sans-serif;
+
   --font-light: 300;
   --font-normal: 400;
   --font-medium: 500;
   --font-semibold: 600;
   --font-bold: 700;
-  
+
   --font-size-sm: 14px;
   --font-size-md: 16px;
   --font-size-lg: 18px;
   --font-size-xl: 24px;
   --font-size-2xl: 32px;
-  
+
   --screen-xs: 480px;
   --screen-sm: 640px;
   --screen-md: 768px;
@@ -66,14 +66,16 @@ p {
   color: var(--gray-paragraph);
 }
 
-a, link {
+a,
+link {
   font-size: var(--font-size-md);
   font-weight: var(--font-medium);
   color: var(--brand-green);
   text-decoration: none;
 }
 
-a:hover, link:hover {
+a:hover,
+link:hover {
   color: var(--brand-green-hover);
   text-decoration: none;
 }

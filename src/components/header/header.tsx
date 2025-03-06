@@ -1,9 +1,12 @@
 import Link from "next/link";
 import "../../styles/header.css";
+import LogoComponent from "./logo";
+import SecondaryButton from "../secondaryButton";
 const Header = () => {
     return (
         <>
-            <nav>
+            <nav className="nav-menu">
+                <LogoComponent />
                 <ul className="header-menu">
                     <li><Link href='/'>Home</Link></li>
                     <li><Link href='/sobre'>Sobre nós</Link></li>
@@ -12,6 +15,7 @@ const Header = () => {
                     <li><Link href='/parceiros'>Parceiros</Link></li>
                     <li><Link href='/projetos'>Projetos</Link></li>
                 </ul>
+                <SecondaryButton/>
             </nav>
         </>
     );
