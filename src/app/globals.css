@@ -33,6 +33,8 @@
   --screen-lg: 1024px;
   --screen-xl: 1280px;
   --screen-2xl: 1536px;
+
+  --section-spacing: 4rem;
 }
 
 body {
@@ -78,6 +80,10 @@ a:hover,
 link:hover {
   color: var(--brand-green-hover);
   text-decoration: none;
+}
+
+.main-container {
+  @apply pt-(--section-spacing) mt-(--section-spacing);
 }
 
 @media (max-width: var(--screen-md)) {

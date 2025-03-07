@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/*INTRODUCTION CONTAINER*/
+.introduction-container{
+    @apply bg-(--brand-green-light);
+}
+
+.introduction-content{
+    @apply flex items-center justify-around  ;
+}
+
+.introduction-content{
+    @apply text-balance ;
+}
+
+/*SERVICES CONTAINER*/
+.services-content{
+    @apply flex flex-col justify-center items-center ;
+}
+
+/*ABOUT CONTAINER*/
+.about-content{
+    @apply flex gap-6 justify-around items-center;
+}
+
+.img-about{
+    @apply w-2xl min-h-auto;
+}
+
+/*TIPS CONTAINER*/
+.tips-container{
+    @apply bg-(--brand-green);
+
+   
+}
+
+.tips-content{
+    @apply flex flex-col items-center justify-around;
+
+    h2, h5{
+        @apply text-white;
+    }
+}

@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
+.header{
+    @apply bg-(--brand-green-light);
+}
 .nav-menu{
-    @apply flex items-center justify-around bg-(--brand-green-light) p-4;
+    @apply flex items-center justify-between bg-(--brand-green-light) py-4;
 }
 .header-menu{
     @apply flex gap-10;
