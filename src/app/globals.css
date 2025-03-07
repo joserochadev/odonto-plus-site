@@ -83,7 +83,7 @@ link:hover {
 }
 
 .main-container {
-  @apply pt-(--section-spacing) mt-(--section-spacing);
+  @apply pt-(--section-spacing) mb-(--section-spacing);
 }
 
 @media (max-width: var(--screen-md)) {
