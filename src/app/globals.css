@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+@theme {
+  --color-brand-green: #00856f;
+  --color-brand-green-light: #dce9e2;
+  --color-brand-green-light-02: #f7f9f9;
+  --color-brand-beige: #fffaf1;
+  --color-brand-green-hover: #00453a;
+
+  --color-gray-headline: #061800;
+  --color-gray-paragraph: #384633;
+  --white: #3e3e3e;
+  --color-gray-footer: #2a2a2a;
+}
+
 :root {
   --brand-green: #00856f;
   --brand-green-light: #dce9e2;
@@ -74,6 +87,10 @@ link {
   font-weight: var(--font-medium);
   color: var(--brand-green);
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 a:hover,
