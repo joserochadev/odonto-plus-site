@@ -1,16 +1,20 @@
 @import "tailwindcss";
 
 :root {
-  --brand-green: #00856f;
-  --brand-green-light: #dce9e2;
-  --brand-green-light-02: #f7f9f9;
-  --brand-beige: #fffaf1;
-  --brand-green-hover: #00453a;
+  --color-brand-green: #00856f;
+  --color-brand-green-light: #dce9e2;
+  --color-brand-green-light-02: #f7f9f9;
+  --color-brand-beige: #fffaf1;
+  --color-brand-green-hover: #00453a;
 
-  --gray-headline: #061800;
-  --gray-paragraph: #384633;
-  --white: #3e3e3e;
-  --gray-footer: #2a2a2a;
+  --color-gray-headline: #061800;
+  --color-gray-paragraph: #384633;
+  --color-white: #3e3e3e;
+  --color-gray-footer: #2a2a2a;
+
+  --color-heading-primary: #003b29; /* Título principal */
+  --color-heading-secondary: #006e52; /* Título secundário */
+  --color-body-text: #4a4a4a; /* Texto de parágrafo */
 
   --font-sans: "Onest", sans-serif;
   --font-serif: "DM Sans", sans-serif;
@@ -24,8 +28,10 @@
   --font-size-sm: 14px;
   --font-size-md: 16px;
   --font-size-lg: 18px;
-  --font-size-xl: 24px;
-  --font-size-2xl: 32px;
+  --font-size-xl: 22px; /* Ajuste do tamanho de h2 para 22px */
+  --font-size-2xl: 26px; /* Ajuste do tamanho de h1 para 26px */
+  --font-size-3xl: 30px; /* Ajuste do título maior para 30px */
+  --font-size-4xl: 36px; /* Ajuste de 48px para 36px */
 
   --screen-xs: 480px;
   --screen-sm: 640px;
@@ -41,46 +47,50 @@ body {
   font-family: var(--font-sans);
   font-size: var(--font-size-md);
   font-weight: var(--font-normal);
-  color: var(--gray-paragraph);
+  color: var(--color-body-text);
   padding: 0px;
   margin: 0px;
 }
 
 h1 {
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-3xl);
   font-weight: var(--font-bold);
-  color: var(--gray-headline);
+  color: var(--color-heading-primary);
 }
 
 h2 {
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-2xl);
   font-weight: var(--font-semibold);
-  color: var(--gray-headline);
+  color: var(--color-heading-secondary);
 }
 
 h3 {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   font-weight: var(--font-medium);
-  color: var(--gray-headline);
+  color: var(--color-heading-secondary);
 }
 
 p {
   font-size: var(--font-size-md);
   font-weight: var(--font-normal);
-  color: var(--gray-paragraph);
+  color: var(--color-gray-paragraph);
 }
 
 a,
 link {
   font-size: var(--font-size-md);
   font-weight: var(--font-medium);
-  color: var(--brand-green);
+  color: var(--color-brand-green);
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 a:hover,
 link:hover {
-  color: var(--brand-green-hover);
+  color: var(--color-brand-green-hover);
   text-decoration: none;
 }
 

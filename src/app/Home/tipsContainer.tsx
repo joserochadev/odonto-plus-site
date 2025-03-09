@@ -1,8 +1,8 @@
 import Container from "@/components/container";
 import "@/styles/cards.css";
-import Image from "next/image";
 import TipsImage from "@/app/assets/img-tips.jpg";
 import PrimaryButton from "@/components/primaryButton";
+import Image from "next/image";
 import "@/styles/containers.css";
 
 const TipsContainer = () => {

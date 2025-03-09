@@ -1,7 +1,7 @@
-import PrimaryButton from "@/components/primaryButton";
-import Image from "next/image";
 import Image01 from "@/app/assets/project-01.jpg";
 import Image02 from "@/app/assets/project-02.jpg";
+import PrimaryButton from "@/components/primaryButton";
+import Image from "next/image";
 import "@/styles/containers.css";
 
 const projectData = [
@@ -23,7 +23,7 @@ const ProjectsContainer = () => {
   return (
     <section className="main-container">
       <div className="projects-container">
-        <h4>PROJETOS SOCIAIS</h4>
+        <p>PROJETOS SOCIAIS</p>
         <h2>Juntos pela saúde e bem-estar da nossa comunidade!</h2>
         <div className="projects-list">
           {projectData.map((project, index) => (

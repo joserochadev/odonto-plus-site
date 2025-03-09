@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+.hero-section {
+  @apply bg-cover bg-center px-4 text-center  bg-(--color-brand-green-light);
+}
+.hero-section-content {
+  @apply py-10;
+}
+.hero-section-title {
+  @apply font-bold;
+}
+
+.hero-section-description {
+  @apply text-xl font-light;
+}
+
+/* Cards das Dicas */
+.card-container {
+  @apply py-16 px-4;
+}
+
+.card-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-screen-xl mx-auto;
+}
+
+.card {
+  @apply rounded-lg shadow-lg hover:translate-y-[-10px] transition-all duration-300;
+}
+
+.tips-text {
+  @apply p-6;
+}
+
+.card-title {
+  @apply text-xl font-semibold;
+}
+
+.card-description {
+  @apply mt-2;
+}
+
+.card-link {
+  @apply hover:text-(--color-brand-beige) font-medium mt-4 inline-block;
+}

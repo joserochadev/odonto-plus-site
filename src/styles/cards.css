@@ -5,14 +5,14 @@
 }
 
 .card-service {
-  @apply bg-(--brand-beige) rounded-2xl shadow-lg 
+  @apply bg-(--color-brand-beige) rounded-2xl shadow-lg 
          hover:shadow-xl 
          flex flex-col items-center justify-center text-center 
          p-0 overflow-hidden w-full h-50;
 }
 
 .tips-card {
-  @apply bg-(--brand-beige) rounded-2xl shadow-lg 
+  @apply bg-(--color-brand-beige) rounded-2xl shadow-lg 
          hover:shadow-xl 
          flex flex-col items-center justify-start text-center 
          w-auto h-auto;

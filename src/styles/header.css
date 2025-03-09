@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 .header {
-  @apply bg-(--brand-green-light);
+  @apply bg-(--color-brand-green-light);
 }
 
 .nav-menu {
-  @apply flex items-center justify-between bg-(--brand-green-light) py-4;
+  @apply flex items-center justify-between bg-(--color-brand-green-light) py-4;
 }
 
 .header-menu {

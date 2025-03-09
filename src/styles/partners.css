@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Container principal */
+.partners-page {
+  @apply min-h-screen;
+}
+
+/* Estilo do cabeçalho */
+.partners-header {
+  @apply bg-(--color-brand-green-light) text-center mb-12 py-10;
+}
+
+/* Estilo do grid de parceiros */
+.partners-grid {
+  @apply grid gap-10;
+}
+
+@media (min-width: 768px) {
+  .partners-grid {
+    @apply md:grid-cols-2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .partners-grid {
+    @apply lg:grid-cols-3;
+  }
+}
+
+/* Estilo do cartão de cada parceiro */
+.partner-card {
+  @apply bg-(--color-brand-beige) rounded-lg shadow-lg transition-all hover:shadow-xl;
+}
+
+/* Imagem do logo do parceiro */
+.partner-logo-container {
+  @apply flex justify-center items-start;
+}
+
+.partner-logo {
+  @apply w-full h-full object-contain max-w-full;
+}
+
+/* Títulos e descrições */
+.partner-name {
+  @apply text-xl font-semibold text-center;
+}
+
+.partner-description {
+  @apply text-center mt-2;
+}

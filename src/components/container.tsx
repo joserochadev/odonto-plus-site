@@ -1,13 +1,12 @@
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
-const Container = ({
-  children,
-  className,
-}: {
+interface ContainerProps {
   children: ReactNode;
-  className: String;
-}) => {
-  const styles = ` mx-auto md:max-w-[1000px] w-full px-10 sm:max-w-full px-4 ${className}`;
+  className?: string; // Tornando className opcional
+}
+
+const Container = ({ children, className = "" }: ContainerProps) => {
+  const styles = `mx-auto w-full px-4 sm:max-w-full md:max-w-[1000px] lg:px-10 ${className}`;
   return <div className={styles}>{children}</div>;
 };
 

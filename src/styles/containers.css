@@ -2,7 +2,7 @@
 
 /* INTRODUCTION CONTAINER */
 .introduction-container {
-  @apply bg-(--brand-green-light);
+  @apply bg-(--color-brand-green-light);
 }
 
 .introduction-content {
@@ -21,16 +21,18 @@
 
 /* TIPS CONTAINER */
 .tips-container {
-  @apply bg-(--brand-green);
+  @apply bg-(--color-brand-green);
 }
 
 .tips-content {
   @apply flex flex-col items-center justify-around pb-10 pt-8 w-full;
 }
 
-.tips-content h2,
 .tips-content h5 {
-  @apply text-white;
+  @apply text-(--color-brand-beige) text-center;
+}
+.tips-content h2 {
+  @apply text-(--color-brand-beige) text-center;
 }
 
 .card-item {
@@ -43,11 +45,11 @@
 }
 
 .projects-container h4 {
-  @apply text-lg font-semibold text-(--brand-green);
+  @apply text-lg font-semibold text-(--gray-headline);
 }
 
 .projects-container h2 {
-  @apply text-2xl sm:text-3xl font-bold text-(--brand-green-dark) mt-2;
+  @apply text-2xl sm:text-3xl font-bold mt-2;
 }
 
 .projects-list {
@@ -55,7 +57,7 @@
 }
 
 .project {
-  @apply flex flex-col sm:flex-row items-center bg-(--brand-green-light) rounded-2xl shadow-lg overflow-hidden mb-8;
+  @apply flex flex-col sm:flex-row items-center bg-(--color-brand-green-light) rounded-2xl shadow-lg overflow-hidden mb-8;
 }
 
 .project:nth-child(even) {
@@ -71,11 +73,11 @@
 }
 
 .project-content h3 {
-  @apply text-xl sm:text-2xl font-semibold text-(--brand-green-dark) mb-4;
+  @apply text-xl sm:text-2xl font-semibold text-(--gray-headline) mb-4;
 }
 
 .project-content p {
-  @apply text-base sm:text-lg text-gray-700;
+  @apply text-base sm:text-lg text-(--gray-paragraph);
 }
 
 @media (max-width: 640px) {

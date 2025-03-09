@@ -1,20 +1,9 @@
-import AboutContainer from "./Home/aboutContainer";
-import IntroductionContainer from "./Home/introductionContainer";
-import ProjectsContainer from "./Home/projectsContainer";
-import ServiceContainer from "./Home/servicesContainer";
-import TipsContainer from "./Home/tipsContainer";
-
+import PageHome from "./Home/page";
 
 export default function Home() {
   return (
     <>
-      <IntroductionContainer />
-      <ServiceContainer />
-      <AboutContainer />
-      <TipsContainer/>
-      <ProjectsContainer/>
+      <PageHome />
     </>
-
-
-  )
+  );
 }

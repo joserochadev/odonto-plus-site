@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+/* Container principal */
+.contact-container {
+  @apply bg-gray-50 min-h-screen;
+}
+
+/* Header */
+.contact-header {
+  @apply text-center mb-12;
+}
+
+.contact-header h1 {
+  @apply font-bold text-(--color-brand-green);
+}
+
+.contact-header p {
+  @apply text-(--color-gray-paragraph);
+}
+
+.contact-text {
+  @apply py-8;
+}
+
+/* Seção de Formulário */
+.contact-form-section {
+  @apply grid grid-cols-1  md:grid-cols-2 gap-12;
+}
+
+/* Formulário de Contato */
+.contact-form-container {
+  @apply p-8 rounded-lg shadow-lg col-span-1 bg-(--color-brand-green);
+}
+
+.contact-form-container h2 {
+  @apply font-semibold text-(--color-brand-beige) mb-6;
+}
+
+.contact-form-label {
+  @apply block text-(--color-brand-beige);
+}
+
+.contact-form-input {
+  @apply w-full p-3 mt-2 border border-(--color-brand-beige) rounded-lg focus:outline-none focus:ring-2;
+}
+
+.contact-form-button {
+  @apply w-full py-3 bg-(--color-brand-beige) text-(--color-brand-green) rounded-lg hover:bg-(--color-brand-green-light) focus:outline-none;
+}
+
+/* Informações de Contato */
+.contact-info-container {
+  @apply bg-(--color-brand-beige) p-8 rounded-lg shadow-lg col-span-1;
+}
+
+.contact-info-container h2 {
+  @apply font-semibold  mb-6;
+}
+
+.contact-info-container h3 {
+  @apply text-lg font-semibold text-(--color-gray-paragraph);
+}
+
+.contact-info-container p {
+  @apply text-(--color-gray-paragraph) mt-2;
+}
+
+/* Mapa de Localização */
+.contact-map-section {
+  @apply mt-16;
+}
+
+.contact-map-section h2 {
+  @apply text-xl font-semibold text-center mb-6;
+}
+
+.contact-map-container {
+  @apply relative w-full h-100;
+}
