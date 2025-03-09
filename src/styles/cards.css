@@ -1,19 +1,27 @@
 @import "tailwindcss";
 
 .card {
-    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8;
+  @apply gap-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  mt-8;
 }
 
-.card-item {
-    @apply bg-(--brand-beige) p-6 rounded-2xl shadow-lg 
-    hover:shadow-xl transition-shadow duration-300 ease-in-out 
-    flex flex-col items-start justify-between;
+.card-service {
+  @apply bg-(--brand-beige) rounded-2xl shadow-lg 
+         hover:shadow-xl 
+         flex flex-col items-center justify-center text-center 
+         p-0 overflow-hidden w-full h-50;
 }
 
-.img-tips {
-    @apply w-24 h-24 rounded-full mb-4 object-cover border-4 border-white shadow-md;
+.tips-card {
+  @apply bg-(--brand-beige) rounded-2xl shadow-lg 
+         hover:shadow-xl 
+         flex flex-col items-center justify-start text-center 
+         w-auto h-auto;
 }
 
-.card-item:hover {
-    @apply transform scale-105;
+.tips-img {
+  @apply w-full h-48 object-cover rounded-2xl;
+}
+
+.tips-text {
+  @apply flex flex-col items-center justify-center p-8 gap-y-2;
 }

@@ -1,5 +1,6 @@
 import AboutContainer from "./Home/aboutContainer";
 import IntroductionContainer from "./Home/introductionContainer";
+import ProjectsContainer from "./Home/projectsContainer";
 import ServiceContainer from "./Home/servicesContainer";
 import TipsContainer from "./Home/tipsContainer";
 
@@ -11,6 +12,7 @@ export default function Home() {
       <ServiceContainer />
       <AboutContainer />
       <TipsContainer/>
+      <ProjectsContainer/>
     </>
 
 

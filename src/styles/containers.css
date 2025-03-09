@@ -1,43 +1,85 @@
 @import "tailwindcss";
 
-/*INTRODUCTION CONTAINER*/
-.introduction-container{
-    @apply bg-(--brand-green-light);
+/* INTRODUCTION CONTAINER */
+.introduction-container {
+  @apply bg-(--brand-green-light);
 }
 
-.introduction-content{
-    @apply flex items-center justify-around  ;
+.introduction-content {
+  @apply flex flex-col md:flex-row items-center justify-around text-balance;
 }
 
-.introduction-content{
-    @apply text-balance ;
+/* SERVICES CONTAINER */
+.services-content {
+  @apply flex flex-col items-center justify-center;
 }
 
-/*SERVICES CONTAINER*/
-.services-content{
-    @apply flex flex-col justify-center items-center ;
+/* ABOUT CONTAINER */
+.about-content {
+  @apply flex flex-col items-center sm:flex-row gap-10;
 }
 
-/*ABOUT CONTAINER*/
-.about-content{
-    @apply flex gap-6 justify-around items-center;
+/* TIPS CONTAINER */
+.tips-container {
+  @apply bg-(--brand-green);
 }
 
-.img-about{
-    @apply w-2xl min-h-auto;
+.tips-content {
+  @apply flex flex-col items-center justify-around pb-10 pt-8 w-full;
 }
 
-/*TIPS CONTAINER*/
-.tips-container{
-    @apply bg-(--brand-green);
-
-   
+.tips-content h2,
+.tips-content h5 {
+  @apply text-white;
 }
 
-.tips-content{
-    @apply flex flex-col items-center justify-around;
+.card-item {
+  @apply flex flex-col items-center justify-center;
+}
 
-    h2, h5{
-        @apply text-white;
-    }
+/* PROJECTS CONTAINER */
+.projects-container {
+  @apply flex flex-col items-center justify-center text-center px-4;
+}
+
+.projects-container h4 {
+  @apply text-lg font-semibold text-(--brand-green);
+}
+
+.projects-container h2 {
+  @apply text-2xl sm:text-3xl font-bold text-(--brand-green-dark) mt-2;
+}
+
+.projects-list {
+  @apply pt-8 w-full max-w-6xl;
+}
+
+.project {
+  @apply flex flex-col sm:flex-row items-center bg-(--brand-green-light) rounded-2xl shadow-lg overflow-hidden mb-8;
+}
+
+.project:nth-child(even) {
+  @apply sm:flex-row-reverse;
+}
+
+.img-project {
+  @apply w-full sm:w-1/2 h-auto;
+}
+
+.project-content {
+  @apply flex flex-col items-center justify-center w-full sm:w-1/2 p-6 sm:p-12 text-center;
+}
+
+.project-content h3 {
+  @apply text-xl sm:text-2xl font-semibold text-(--brand-green-dark) mb-4;
+}
+
+.project-content p {
+  @apply text-base sm:text-lg text-gray-700;
+}
+
+@media (max-width: 640px) {
+  .project {
+    @apply flex-col;
+  }
 }

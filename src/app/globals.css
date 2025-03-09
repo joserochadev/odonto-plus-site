@@ -42,6 +42,8 @@ body {
   font-size: var(--font-size-md);
   font-weight: var(--font-normal);
   color: var(--gray-paragraph);
+  padding: 0px;
+  margin: 0px;
 }
 
 h1 {
@@ -83,7 +85,7 @@ link:hover {
 }
 
 .main-container {
-  @apply pt-(--section-spacing) mb-(--section-spacing);
+  @apply mt-(--section-spacing) mb-(--section-spacing);
 }
 
 @media (max-width: var(--screen-md)) {
