@@ -1,6 +1,6 @@
 export function TipsPage() {
 	return (
-		<div className="max-w-3xl mx-auto p-6 bg-white shadow-lg rounded-2xl">
+		<div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-2xl">
 			<h1 className="text-3xl font-bold text-gray-900 mb-4">
 				5 Dicas Essenciais para uma Saúde Bucal Perfeita
 			</h1>
