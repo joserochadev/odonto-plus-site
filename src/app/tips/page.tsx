@@ -1,5 +1,9 @@
 import "@/styles/tips.css";
+import img1 from "@/app/assets/tips/tips-img01.jpg";
+import img2 from "@/app/assets/tips/tips-img02.jpeg";
+import img3 from "@/app/assets/tips/tips-img03.jpg";
 import Container from "@/components/container";
+import Image from "next/image";
 
 const TipsPage = () => {
   const tips = [
@@ -7,22 +11,19 @@ const TipsPage = () => {
       title: "Como manter uma boa saúde bocal",
       description:
         "Dicas simples para cuidar dos dentes no dia a dia e evitar problemas dentários.",
-      imageUrl:
-        "https://th.bing.com/th/id/R.ea89b4f9051735fdd64a3022d9cd9feb?rik=J7yO3Rk7gX21kA&pid=ImgRaw&r=0", // Caminho da imagem
+      imageUrl: img1, // Caminho da imagem
     },
     {
       title: "Alimentação e saúde dental",
       description:
         "Saiba como a alimentação impacta a saúde dos seus dentes e gengivas.",
-      imageUrl:
-        "https://media.starlightcms.io/workspaces/pague-menos/portal-sempre-bem/original/saude-bucal-8-vfzefw77pd.jpeg", // Caminho da imagem
+      imageUrl: img2, // Caminho da imagem
     },
     {
       title: "Importância do uso do fio dental",
       description:
         "Entenda a importância do fio dental para a prevenção de cáries e doenças gengivais.",
-      imageUrl:
-        "https://www.revistasuplementacao.com.br/_client/materia/5b21301964d49.jpg", // Caminho da imagem
+      imageUrl: img3, // Caminho da imagem
     },
   ];
 
@@ -47,7 +48,7 @@ const TipsPage = () => {
         <section className="card-container">
           {tips.map((tip, index) => (
             <div className="card-tips" key={index}>
-              <img
+              <Image
                 src={tip.imageUrl}
                 alt={tip.title}
                 className="card-image"
