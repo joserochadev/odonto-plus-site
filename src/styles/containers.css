@@ -6,7 +6,11 @@
 }
 
 .introduction-content {
-  @apply flex flex-col md:flex-row items-center justify-around text-balance;
+  @apply flex flex-col items-center justify-center sm:text-center md:flex-row md:justify-around;
+}
+
+.content {
+  @apply flex flex-col items-center justify-center text-center md:flex-col md:items-start md:text-left;
 }
 
 /* SERVICES CONTAINER */

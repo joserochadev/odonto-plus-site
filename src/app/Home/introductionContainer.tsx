@@ -8,7 +8,7 @@ export default function IntroductionContainer() {
   return (
     <section className="introduction-container">
       <Container className="">
-        <div className="content introduction-content">
+        <div className="introduction-content">
           <div className="content">
             <p>BOAS-VINDAS A DOCTORCARE 👋</p>
             <h1>Assistência médica simplificada para todos</h1>

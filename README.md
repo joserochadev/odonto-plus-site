@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🦷 Clínica Odontológica - Website
 
-## Getting Started
+Bem-vindo ao repositório do website da **Clínica Odontológica**! Este projeto foi desenvolvido como parte de um trabalho acadêmico da faculdade, em dupla, para criar um site moderno, responsivo e intuitivo para uma clínica odontológica. Nosso objetivo foi oferecer uma experiência agradável para os usuários, apresentando informações relevantes e incentivando o cuidado com a saúde bucal.
 
-First, run the development server:
+## Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Para garantir um site rápido, bonito e funcional, utilizamos as seguintes tecnologias:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js** - Framework React para construção de aplicações web otimizadas.
+- **Tailwind CSS** - Estilização moderna e responsiva com classes utilitárias.
+- **Figma** - Design e prototipagem da interface antes do desenvolvimento.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Nosso site conta com cinco páginas principais:
 
-## Learn More
+1. **Home** - Página inicial com uma introdução sobre a clínica e seus serviços.
+2. **Dicas** - Seção com conteúdos educativos sobre saúde bucal e prevenção.
+3. **Contato** - Informações para agendamento de consultas e atendimento.
+4. **Parceiros** - Empresas e profissionais parceiros da clínica.
+5. **Projetos Futuros** - Visão sobre futuras melhorias e expansões da clínica.
 
-To learn more about Next.js, take a look at the following resources:
+## Responsividade
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+O site foi desenvolvido com foco na acessibilidade e adaptação para diferentes dispositivos. A interface se ajusta perfeitamente a telas de celulares, tablets e desktops, garantindo uma navegação fluida em qualquer tamanho de tela.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Design
 
-## Deploy on Vercel
+Todo o design foi planejado no **Figma**, garantindo uma identidade visual moderna e alinhada com a proposta da clínica. Cores suaves, tipografia legível e um layout intuitivo foram priorizados para proporcionar uma excelente experiência ao usuário.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔧 Como Rodar o Projeto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Caso queira visualizar o projeto localmente, siga os passos abaixo:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/kailanesarah/odonto-plus-site.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd nome-do-projeto
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Inicie o servidor local:
+   ```bash
+   npm run dev
+   ```
+5. Acesse no navegador: `http://localhost:3000`
+
+## 💡 Contribuição
+
+Caso tenha alguma sugestão ou queira contribuir com melhorias, fique à vontade para abrir uma issue ou enviar um pull request. Feedbacks são sempre bem-vindos!
+
+## 📞 Contato & Redes Sociais
+
+Conecte-se conosco:
+
+- **[GitHub - Kailane Sarah](https://github.com/kailanesarah)**
+- **[LinkedIn - Kailane Sarah](https://www.linkedin.com/in/kailane-sarah/)**
+- **[GitHub - José Rocha](https://github.com/joserochadev)**
+- **[LinkedIn - José Rocha](https://www.linkedin.com/in/jose-rocha-dev/)**
+
+---
+
+📌 **Desenvolvido com 💙 por Kailane Sarah e José Rocha**

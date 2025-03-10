@@ -67,7 +67,7 @@
 
 /* Mapa de Localização */
 .contact-map-section {
-  @apply mt-16;
+  @apply mt-16 mb-16;
 }
 
 .contact-map-section h2 {

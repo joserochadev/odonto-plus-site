@@ -1,4 +1,7 @@
+import ContactForm from "@/components/contactForm";
+
 import AboutContainer from "./aboutContainer";
+import ContactContainer from "./contact";
 import IntroductionContainer from "./introductionContainer";
 import ProjectsContainer from "./projectsContainer";
 import ServiceContainer from "./servicesContainer";
@@ -12,6 +15,7 @@ export default function PageHome() {
       <AboutContainer />
       <TipsContainer />
       <ProjectsContainer />
+      <ContactContainer />
     </>
   );
 }

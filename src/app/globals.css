@@ -50,6 +50,7 @@ body {
   color: var(--color-body-text);
   padding: 0px;
   margin: 0px;
+  @apply bg-gray-50;
 }
 
 h1 {

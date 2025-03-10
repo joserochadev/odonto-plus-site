@@ -44,9 +44,6 @@ const Header = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/sobre">Sobre nós</Link>
-            </li>
-            <li>
               <Link href="/tips">Dicas</Link>
             </li>
             <li>
