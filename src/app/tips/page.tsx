@@ -4,6 +4,7 @@ import img2 from "@/app/assets/tips/tips-img02.jpeg";
 import img3 from "@/app/assets/tips/tips-img03.jpg";
 import Container from "@/components/container";
 import Image from "next/image";
+import Link from "next/link";
 
 const TipsPage = () => {
   const tips = [
@@ -58,9 +59,7 @@ const TipsPage = () => {
               <div className="tips-text">
                 <h3 className="card-title">{tip.title}</h3>
                 <p className="card-description">{tip.description}</p>
-                <a href="/" className="card-link">
-                  Leia mais
-                </a>
+                <Link href="/">Leia mais</Link>
               </div>
             </div>
           ))}
