@@ -1,5 +1,3 @@
-import ContactForm from "@/components/contactForm";
-
 import AboutContainer from "./aboutContainer";
 import ContactContainer from "./contact";
 import IntroductionContainer from "./introductionContainer";

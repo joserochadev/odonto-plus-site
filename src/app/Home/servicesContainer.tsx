@@ -1,6 +1,4 @@
 import Container from "@/components/container";
-import { faAward } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "@/styles/containers.css";
 import "@/styles/cards.css";
 
