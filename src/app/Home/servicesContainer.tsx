@@ -1,4 +1,6 @@
 import Container from "@/components/container";
+import { faAward } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "@/styles/containers.css";
 import "@/styles/cards.css";
 
@@ -44,16 +46,18 @@ const ServiceContainer = () => {
 
   return (
     <section className="main-container services-container">
-      <Container className="">
+      <Container>
         <div className="content services-content">
           <p>SERVIÇOS</p>
           <h2>Como podemos ajudá-lo a se sentir melhor?</h2>
 
           <div className="card">
-            {contentGrid.map((objects, index) => (
+            {contentGrid.map((service, index) => (
               <div key={index} className="card-service">
-                <h3>{objects.titulo}</h3>
-                <p>{objects.descricao}</p>
+                <div className="p-10">
+                  <h3>{service.titulo}</h3>
+                  <p>{service.descricao}</p>
+                </div>
               </div>
             ))}
           </div>

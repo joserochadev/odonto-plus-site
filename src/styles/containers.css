@@ -19,6 +19,10 @@
   @apply flex flex-col items-center sm:flex-row gap-10;
 }
 
+.icon-service {
+  @apply bg-amber-100 text-gray-800 text-9xl;
+}
+
 /* TIPS CONTAINER */
 .tips-container {
   @apply bg-(--color-brand-green);

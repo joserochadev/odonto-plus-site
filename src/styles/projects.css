@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+.projects-header {
+  @apply py-10 bg-(--color-brand-green-light);
+}
+
+.header {
+  @apply flex flex-col items-center justify-center;
+}
+
+.project-card {
+  @apply bg-(--color-brand-beige) mb-5 pb-6 rounded-lg shadow-lg hover:shadow-xl transition-all;
+}
+
+.project-image {
+  @apply w-full h-50 object-cover rounded-lg mb-4;
+}
+
+.project-title {
+  @apply text-2xl font-semibold mb-3;
+}
+
+.project-description {
+  @applymt-3;
+}
+
+.projects-section {
+  @apply space-y-12;
+}
+
+.text-card {
+  @apply p-10;
+}
+
+@media (min-width: 768px) {
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -5,9 +5,13 @@
 }
 
 .nav-menu {
-  @apply flex items-center justify-between bg-(--color-brand-green-light) py-4;
+  @apply flex items-center justify-between py-4;
 }
 
 .header-menu {
-  @apply flex gap-10;
+  @apply flex-col items-center justify-center gap-4 absolute top-16 left-0 w-full bg-(--color-brand-green-light) shadow-lg p-4 md:static md:flex md:flex-row md:bg-transparent md:shadow-none md:p-0;
+}
+
+.menu-toggle {
+  @apply text-(--color-brand-beige) bg-(--color-brand-green) rounded-md;
 }

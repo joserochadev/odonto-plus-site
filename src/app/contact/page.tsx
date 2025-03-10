@@ -10,7 +10,7 @@ export default function ContactPage() {
       <header className="contact-header  bg-(--color-brand-green-light)">
         <Container>
           <div className="contact-text text-balance">
-            <h1>Entre em Contato</h1>
+            <h2>Entre em contato agora mesmo!</h2>
             <p>
               Estamos à disposição para atender você! Preencha o formulário
               abaixo ou entre em contato conosco por outros canais.
